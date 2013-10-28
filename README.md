@@ -1,24 +1,18 @@
-# Stairs::Steps::S3
+# Stairs S3 Plugin
 
-TODO: Write a gem description
+Stairs plugin for setting up S3.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'stairs-steps-s3'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install stairs-steps-s3
+Install `stairs-steps-s3` gem alongside `stairs`
 
 ## Usage
 
-TODO: Write usage instructions here
+In your stairs setup script:
+
+```ruby
+setup :s3
+```
 
 ## Contributing
 
