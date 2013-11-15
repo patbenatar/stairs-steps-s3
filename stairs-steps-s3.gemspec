@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "stairs-steps-s3"
-  spec.version       = "0.0.5"
+  spec.version       = "0.0.6"
   spec.authors       = ["patbenatar"]
   spec.email         = ["nick@gophilosophie.com"]
   spec.description   = "Stairs plugin for setting up S3"
