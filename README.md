@@ -14,6 +14,21 @@ In your stairs setup script:
 setup :s3
 ```
 
+This will write the following ENV vars: `AWS_ACCESS_KEY_ID`,
+`AWS_SECRET_ACCESS_KEY`, `AWS_S3_BUCKET`
+
+### Options
+
+You can optionally specify the names for the ENV vars this step will write to:
+
+* `key_id`: ENV var name for AWS Access Key ID
+* `key_secret`: ENV var name for AWS Access Key Secret
+* `bucket`: ENV var name for the S3 Bucket name
+
+```ruby
+setup :s3, bucket: "S3_BUCKET"
+```
+
 ## Contributing
 
 1. Fork it
